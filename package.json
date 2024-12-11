@@ -1,0 +1,44 @@
+{
+  "name": "react-jsx-highcharts-examples",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "highcharts": "^12.0.2",
+    "lodash": "^4.17.21",
+    "proj4": "^2.15.0",
+    "re-resizable": "^6.10.1",
+    "react": "18.3.1",
+    "react-day-picker": "^7.4.10",
+    "react-dom": "18.3.1",
+    "react-jsx-highcharts": "^5.0.3",
+    "react-jsx-highmaps": "^3.0.4",
+    "react-jsx-highstock": "^5.0.3",
+    "react-responsive": "^10.0.0",
+    "react-router-dom": "^7.0.2",
+    "react-scripts": "5.0.1",
+    "react-syntax-highlighter": "^15.6.1",
+    "swr": "2.2.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    "chrome >= 81",
+    "edge >= 81",
+    "firefox >= 78",
+    "ios >= 12",
+    "safari >= 12"
+  ],
+  "devDependencies": {
+    "sass": "^1.74.1"
+  },
+  "overrides": {
+    "react-day-picker": {
+      "react": "$react"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.custom-component-chart {
+  overflow: visible !important;
+  padding-top: 20px;
+  position: relative;
+}
+
+.custom-component-chart .date-range-pickers {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.custom-component-chart .DayPickerInput > input {
+  text-align: center;
+}
+
+.custom-component-chart .date-range-pickers__to-label {
+  margin-left: 1rem;
+}
